@@ -25,28 +25,6 @@ int size_of_array = 0;            /* Global variable that are size of number-seq
  * FUNCTIONS
  ******************************************************************************/
 /**
- * @brief Display options on console for user.
- * @return Void.
- */
-void showMenu()
-{
-    printf("\n");
-    // printf("-------------------------******---------------------------------\n");
-    printf("*----------PROGRAM TO MANAGE NUMBER-SEQUENCE USING ARRAY----------*\n");
-    printf("|                                                                 |\n");
-    printf("|Input 'c' to create whole number-sequence                        |\n");
-    printf("|Input 'p' to print number-sequence                               |\n");
-    printf("|Input 'i' to add one element to number-sequence                  |\n");
-    printf("|Input 'd' to delete one element from number-sequence             |\n");
-    printf("|Input 's' to arrange number-sequence in ascending order          |\n");
-    printf("|Input 'x' to arrange number-sequence in descending order         |\n");
-    printf("|Input 't' to find a number in number-sequence                    |\n");
-    printf("|Input 'e' to close program                                       |\n");
-    printf("|_________________________________________________________________|\n");
-}
-
-
-/**
  * @brief Create an new array.
  *
  * This function will create a new array whenever it is called. It base on 'size_of_array' variable to

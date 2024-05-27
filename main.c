@@ -15,6 +15,12 @@
 #include "manage_number.h"
 #include "get_input.h"
 
+/**
+ * @brief Display options on console for user.
+ * @return Void.
+ */
+void showMenu();
+
 /*******************************************************************************
  * CODE
  ******************************************************************************/
@@ -181,5 +187,26 @@ int main(void)
     } while (choice != 'e'); /*do-while loop will be terminated when user select 'e' option*/
 
     return 0;
+}
+
+/**
+ * @brief Display options on console for user.
+ * @return Void.
+ */
+void showMenu()
+{
+    printf("\n");
+    // printf("-------------------------******---------------------------------\n");
+    printf("*----------PROGRAM TO MANAGE NUMBER-SEQUENCE USING ARRAY----------*\n");
+    printf("|                                                                 |\n");
+    printf("|Input 'c' to create whole number-sequence                        |\n");
+    printf("|Input 'p' to print number-sequence                               |\n");
+    printf("|Input 'i' to add one element to number-sequence                  |\n");
+    printf("|Input 'd' to delete one element from number-sequence             |\n");
+    printf("|Input 's' to arrange number-sequence in ascending order          |\n");
+    printf("|Input 'x' to arrange number-sequence in descending order         |\n");
+    printf("|Input 't' to find a number in number-sequence                    |\n");
+    printf("|Input 'e' to close program                                       |\n");
+    printf("|_________________________________________________________________|\n");
 } /* EOF */
 

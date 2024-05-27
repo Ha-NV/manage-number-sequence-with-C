@@ -5,12 +5,6 @@
 #include <stdlib.h>         /* for system("cls") */
 
 /**
- * @brief Display options on console for user.
- * @return Void.
- */
-void showMenu();
-
-/**
  * @brief Create an new array.
  *
  * This function will create a new array whenever it is called. It base on 'size_of_array' variable to
