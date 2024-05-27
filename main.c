@@ -12,6 +12,7 @@
  * INCLUDE
  ******************************************************************************/
 #include <stdio.h>
+#include <stdint.h>
 #include "manage_number.h"
 #include "get_input.h"
 
